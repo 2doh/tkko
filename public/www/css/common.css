@@ -24,6 +24,11 @@ body {
   font-weight: 400;
   font-optical-sizing: auto;
 }
+.wrap {
+  position: relative;
+  padding-top: 70px;
+  /* 헤더 상단 고정을 위해 간격 줌 */
+}
 .inner {
   max-width: 1120px;
   display: flex;
