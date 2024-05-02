@@ -1,0 +1,39 @@
+.header {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  border-bottom: solid 1px #eeeeee;
+}
+.header .inner {
+  height: 70px;
+  justify-content: space-between;
+}
+.header-logo {
+  width: 115px;
+  height: 70px;
+}
+.header-logo-img {
+  width: 100%;
+  height: 100%;
+}
+.header-menu {
+}
+.header-menu-list {
+  display: flex;
+  gap: 28px;
+}
+.header-menu-point {
+}
+.header-navi {
+}
+.navi-list {
+}
+.navi-userprofile {
+}
+.navi-search {
+}
+.navi-menu {
+  background: url("../images/");
+  padding: 8px;
+}
