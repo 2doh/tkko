@@ -36,3 +36,6 @@ body {
   align-items: center;
   margin: 0 auto;
 }
+.br-10 {
+  border-radius: 10px;
+}
