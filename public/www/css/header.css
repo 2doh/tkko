@@ -79,12 +79,13 @@
   background-size: contain;
 }
 .navi-menu {
-  padding: 8px;
 }
 .navi-menu div {
   width: 18px;
   height: 18px;
   background: url("../images/icon-hbr.png") no-repeat center;
   background-size: contain;
+
   padding: 8px;
+  background-size: contain;
 }
