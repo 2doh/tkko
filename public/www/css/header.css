@@ -37,6 +37,7 @@
 .navi-search {
 }
 .navi-menu {
-  background: url("../images/");
+  background: url("../images/icon-hbr.png");
   padding: 8px;
+  background-size: contain;
 }
