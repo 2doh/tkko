@@ -1,0 +1,65 @@
+.footer {
+  padding: 40px 0 45px;
+  border-top: 1px solid rgb(238, 238, 238);
+}
+.footer .inner {
+  width: 1120px;
+  height: 94px;
+  margin: 0 auto;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.footer-logo {
+}
+
+.footer-logo img {
+  width: 115px;
+  height: 18px;
+  display: block;
+}
+
+.footer-info {
+  padding: 16px 0 18px;
+  font-size: 14px;
+  color: #444444;
+  /* 글자 색상 왜 안바뀌지?? */
+}
+
+.footer-bottom {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  /* gap: 575.91px; */
+}
+
+.sitemap-list {
+  display: flex;
+  /* gap: 11px; */
+  font-size: 14px;
+  padding: 6px 0;
+}
+
+.sns-list {
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  /* sns 리스트 오른쪽 여백 없도록 함 */
+}
+
+.sitemap-list-dot {
+  margin: 0 11px;
+}
+
+/* @media all and (max-width: 1024px) {
+  .sitemap-list {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .sns-list {
+    width: 100%;
+  }
+} */

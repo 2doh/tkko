@@ -1,39 +1,91 @@
 .header {
-  display: block;
+  display: flex;
   position: fixed;
+  /* 헤더 상단고정(html 태그로 인식 못하게 만들기 때문에 wrap으로 위치 잡아줘야함) 
+  웹 브라우저의 영역으로 생각하고, body 내부의 코드라고 인식 안함*/
+  top: 0;
+  left: 0;
   width: 100%;
   height: 70px;
   border-bottom: solid 1px #eeeeee;
 }
 .header .inner {
+  width: 1120px;
   height: 70px;
   justify-content: space-between;
 }
 .header-logo {
+}
+.header-logo-img {
   width: 115px;
   height: 70px;
 }
-.header-logo-img {
-  width: 100%;
-  height: 100%;
-}
 .header-menu {
 }
+
 .header-menu-list {
   display: flex;
-  gap: 28px;
+  height: 70px;
+  align-items: center;
+  gap: 20px;
 }
-.header-menu-point {
+.header-menu-list li {
+  display: flex;
+  padding: 0 14px;
+  height: 100%;
+  align-items: center;
+}
+.header-menu-list a {
+}
+.list-dot {
+  display: flex;
+}
+.header-menu-list .dot {
+  border-radius: 50%;
+  background-color: red;
+  width: 4px;
+  height: 4px;
+  margin-left: 3px;
+  margin-bottom: 17px;
 }
 .header-navi {
 }
 .navi-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .navi-userprofile {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.navi-userprofile img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  /* mask-image: url("../images/squircle_border.svg");
+  mask-size: 100% 100%; */
 }
 .navi-search {
+  padding: 8px;
+}
+.navi-search div {
+  margin-right: 11px;
+  margin-left: 19px;
+  width: 22px;
+  height: 22px;
+  background: url("../images/icon-search.png") no-repeat center;
+  background-size: contain;
 }
 .navi-menu {
-  background: url("../images/");
+}
+.navi-menu div {
+  width: 18px;
+  height: 18px;
+  background: url("../images/icon-hbr.png") no-repeat center;
+  background-size: contain;
+
   padding: 8px;
+  background-size: contain;
 }
