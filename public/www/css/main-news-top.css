@@ -1,5 +1,60 @@
 .main-news-top {
   width: 700px;
-  height: 50%;
+  height: 100%;
   background-color: pink;
+}
+.main-news-top a {
+  display: block;
+  width: 100%;
+  height: 250px;
+  background: url("../images/41511f32fc364a38a19daad22e6f3d24.jpg") no-repeat center;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+
+.main-news-top-imminent {
+  padding: 24px 30px 32px;
+  margin-bottom: 30px;
+  width: 700px;
+  height: 300px;
+  background-color: skyblue;
+  margin: 0 auto;
+}
+
+.main-news-top-imminent h2 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main-news-top-imminent p {
+  padding-top: 4px;
+  font-size: 15px;
+  color: #666666;
+}
+
+.imminent-inner {
+  display: flex;
+  padding-top: 20px;
+  margin: -12px auto;
+  width: 640px;
+  height: 212px;
+}
+
+.imminent-img {
+  background: url("../images/c1400x788.jpg") no-repeat center;
+  width: 280px;
+  height: 168px;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.imminent-img-top {
+  background-color: black;
+  width: 280px;
+  height: 40px;
+  padding: 0 10px;
+  color: #c9c9c9;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
 }
