@@ -53,6 +53,9 @@
   margin: 0 11px;
 }
 
+.footer-bottom-hidden {
+  display: none;
+}
 @media all and (max-width: 768px) {
   .footer {
     width: 100%;
@@ -90,6 +93,9 @@
   }
   .footer-bottom-sitemap {
   }
+  .Corp {
+    display: none;
+  }
   .sitemap-list {
   }
   .sitemap-list-dot {
@@ -98,5 +104,9 @@
   }
   .footer-bottom-hidden {
     font-size: 12px;
+    display: block;
+  }
+  .sitemap-list-dot-hide {
+    display: none;
   }
 }
