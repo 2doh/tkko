@@ -1,13 +1,13 @@
 .main-news-top {
   width: 700px;
-  height: 100%;
-  /* background-color: pink; */
+  height: auto;
+  background-color: pink;
 }
-.main-news-top a {
+.main-news-top-banner {
   display: block;
   width: 100%;
   height: 250px;
-  background: url("../images/41511f32fc364a38a19daad22e6f3d24.jpg") no-repeat center;
+  background: url("../images/c1f0f45fc47a45f7b6f19e1ad77b93d2.jpg") no-repeat center;
   background-size: contain;
   margin-bottom: 30px;
 }
@@ -17,16 +17,19 @@
   margin-bottom: 30px;
   width: 700px;
   height: 300px;
-  background-color: skyblue;
+  background-color: white;
+  border: 1px solid #c9c9c9;
 }
 
 .main-news-top-imminent h2 {
+  height: 28px;
   font-size: 20px;
   font-weight: 600;
 }
 
 .main-news-top-imminent p {
   padding-top: 4px;
+  height: 28px;
   font-size: 15px;
   color: #666666;
 }
@@ -40,38 +43,139 @@
 }
 
 .imminent-img {
-  background: url("../images/c1400x788.jpg") no-repeat center;
+  background: url("../images/c1400x960\(11\).jpg") no-repeat center;
   border-radius: 10px;
   width: 280px;
   height: 168px;
   overflow: hidden;
-  background-size: contain;
+  background-size: cover;
 }
 
 .imminent-img-top {
   background-color: black;
+  margin: 0 auto;
   width: 280px;
   height: 40px;
   padding: 0 10px;
   color: #c9c9c9;
   font-size: 14px;
+  font-weight: 600;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.imminent-num {
-  display: flex;
-  margin-right: 10px;
+.imminent-contents {
+  width: 335px;
+  padding-left: 25px;
 }
-.imminent-num1 {
-  background-color: aqua;
-  width: 10px;
-  height: 10px;
+.imminent-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.imminent-numbox-line {
+  position: absolute;
+  background-color: #202020;
+  width: calc(100% - 20px);
+  height: 2px;
+}
+.imminent-numbox {
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 14px;
+  color: #c9c9c9;
+  padding-left: 3px;
+}
+.imminent-num {
+  background-color: #444444;
+  border-radius: 1.5px;
+  width: 16px;
+  height: 32px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2px;
 }
 .imminent-img-endimmin {
-  margin-bottom: 0;
+  color: white;
+  padding: 4px 8px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  width: 58.5px;
+  height: 26.99px;
+  background-color: #ff4050;
+  position: relative;
+  top: 90px;
+  left: 10px;
+  border-radius: 5px;
 }
-
+.imminent-contents .gaugebar {
+  margin-top: 12px;
+  width: 100%;
+  height: 4px;
+  background-color: #e9e9e9;
+  display: flex;
+  align-items: center;
+}
+.imminent-contents .gaugebar .gauge {
+  width: 93%;
+  height: 4px;
+  background-color: red;
+}
+.imminent-contents-textbox {
+  margin-top: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+.imminent-contents-textbox-top {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  height: 21.98px;
+  color: #202020;
+  font-size: 14px;
+}
+.imminent-contents-textbox-bottom {
+  font-size: 12px;
+  height: 20.02px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imminent-buttons {
+  width: 335px;
+  height: 56px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imminent-buttons button {
+  width: 163px;
+  height: 40px;
+  font-size: 14px;
+  padding: 0 18px;
+  align-items: center;
+  background-color: white;
+  border: 1px solid #444444;
+  border-radius: 5px;
+}
+.left-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-buttons img {
+  margin: 0px 9px 0px -16px;
+  transform: scale(0.8);
+}
+.left-butoons:hover {
+  display: flex;
+  font-size: 11px;
+}
 .main-news-top-mostfund {
   width: 700px;
   height: 371.48px;
@@ -105,7 +209,6 @@
   display: flex;
 }
 .mostfund-box {
-  /* background-color: blue; */
   height: 255.44px;
   width: 220px;
 }
@@ -142,19 +245,6 @@
   height: 33.99px;
   margin-top: 20px;
   padding-top: 8px;
-}
-.mostfund-gaugebar {
-  width: 100%;
-  height: 1px;
-  background-color: #888888;
-  /* opacity: 0.2; */
-  display: flex;
-  align-items: center;
-}
-.mostfund-gaugebar .gauge {
-  width: 43.99px;
-  height: 2px;
-  background-color: red;
 }
 .mostfund-text {
   width: 100%;

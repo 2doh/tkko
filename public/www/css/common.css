@@ -27,6 +27,7 @@ body {
 .wrap {
   position: relative;
   padding-top: 70px;
+  margin: 0 auto;
   /* 헤더 상단 고정을 위해 간격 줌 */
 }
 .inner {
@@ -42,3 +43,12 @@ body {
 .br-20 {
   border-radius: 20px;
 }
+
+/* @media all and (max-width: 1140px) {
+  .wrap {
+    margin: 0 10px;
+  }
+  .header {
+    padding: 0 10px;
+  }
+} */

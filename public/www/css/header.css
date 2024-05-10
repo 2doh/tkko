@@ -71,24 +71,19 @@
 }
 .navi-search {
   padding: 8px;
-}
-.navi-search div {
   margin-right: 11px;
   margin-left: 19px;
+}
+.navi-search svg {
   width: 22px;
   height: 22px;
-  background: url("../images/icon-search.png") no-repeat center;
-  background-size: contain;
 }
 .navi-menu {
   padding: 8px;
 }
-.navi-menu div {
+.navi-menu svg {
   width: 18px;
   height: 18px;
-  background: url("../images/icon-hbr.png") no-repeat center;
-  background-size: contain;
-  background-size: contain;
 }
 
 @media all and (max-width: 768px) {
@@ -135,7 +130,7 @@
     width: 52px;
     height: 55px;
   }
-  .navi-search div {
+  .navi-search svg {
     width: 20px;
     height: 20px;
     position: fixed;
@@ -143,7 +138,7 @@
     right: 0px;
     margin: 17.5px 21px 17.5px 11px;
   }
-  .navi-menu div {
+  .navi-menu svg {
     position: fixed;
     top: 0px;
     left: 0px;
