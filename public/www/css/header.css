@@ -9,6 +9,7 @@
   height: 70px;
   border-bottom: solid 1px #eeeeee;
   background-color: white;
+  z-index: 9999;
 }
 .header .inner {
   width: 1120px;
@@ -85,7 +86,9 @@
   width: 18px;
   height: 18px;
 }
-
+@media all and (max-width: 1160px) {
+  .header .inner {margin-left: 10px}
+}
 @media all and (max-width: 768px) {
   .header {
     max-width: 768px;
