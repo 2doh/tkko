@@ -1,0 +1,136 @@
+.main-cards-top{
+    width: 360px;
+    height: 530px;
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  .main-cards-top-yellow{
+    width: 360px;
+    height: 249px;
+    display: block;
+    background-color: rgb(255,232,0);
+    position: relative;
+    padding: 34px 26px 29px;
+    border-radius: 12px 12px 0px 0px;
+  }
+  
+  .main-cards-top-head{
+    width: 308px;
+    height: 60px;
+    display: block;
+  }
+  
+  .main-cards-top-head-link{
+    width: 129.250px;
+    height: 60px;
+  }
+  
+  .main-cards-top-head-txt{
+    color: rgb(32,32,32);
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.5;
+  }
+  
+  .main-cards-top-yellow-date{
+    width: 308px;
+    height: 25px;
+    display: block;
+    font-size: 13px;
+    color: #00000080;
+    padding-top: 12px;
+  }
+  
+  .main-cards-top-img{
+    width: 105px;
+    height: 133px;
+    display: block;
+    right: 20px;
+    top: 19px;
+    position: absolute;
+    background-size: cover;
+    /* 이미지 잘리지 않고 사이즈에 맞게 해줌 */
+    background-image: url('../images/img_choonsik_231226.png');
+  }
+  
+  .total-donation{
+    background-color: #fff;
+    width: 308px;
+    height: 60px;
+    display: block;
+  }
+  
+  .total-donation-inner{
+    /* background-color: aqua; */
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    margin-top: 41px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  .total-donation-icon{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    background-image: url('../images/ico_won.png');
+    background-size: cover;
+    /* align-items: center; */
+  }
+  
+  .total-donation-txt{
+    font-size: 16px;
+    color: #444;
+  }
+  
+  .total-donation-amount{
+    font-size: 18px;
+    flex-grow: 1;
+    text-align: right;
+  }
+  
+  .main-cards-top-white{
+    width: 360px;
+    height: 281px;
+    background-color: #fff;
+    padding: 31px 26px 46px;
+    border-radius: 0px 0px 12px 12px;
+    box-sizing: border-box;
+  }
+  
+  .main-cards-top-white-head{
+    width: 308px;
+    height: 16px;
+    display: block;
+  }
+  
+  .main-cards-top-white-h4{
+    font-size: 13px;
+    color: #888;
+    display: block;
+  }
+  
+  .main-cards-top-white-body{}
+
+  .main-cards-top-slide-head{
+    width: 308px;
+    height: 72px;
+    color: #444444;
+    font-size: 18px;
+    padding-top: 16px;
+  }
+
+  .main-cards-top-slide-head-txt{}
+
+  .main-cards-top-slide-contents{
+    width: 308px;
+    height: 118.5px;
+    color: #4A4A4A;
+    font-size: 14px;
+    line-height: 1.92;
+    padding: 15px 0px 0px;
+  }
+  
