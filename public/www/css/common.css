@@ -29,6 +29,7 @@ body {
   padding-top: 70px;
   margin: 0 auto;
   /* 헤더 상단 고정을 위해 간격 줌 */
+  background-color: #f7f7f7;
 }
 .inner {
   max-width: 1120px;

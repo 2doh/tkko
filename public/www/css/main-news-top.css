@@ -76,7 +76,7 @@
   position: absolute;
   background-color: #202020;
   width: calc(100% - 20px);
-  height: 2px;
+  height: 1px;
 }
 .imminent-numbox {
   display: flex;
