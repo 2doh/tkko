@@ -1,42 +1,43 @@
-.main-cards-second{
-    width: 360px;
-    height: 204.19px;
-    display: block;
-    background-color: #1E2166;
-    border-radius: 12px;
-}   
-
-.main-card-second-wrap{
-    /* overflow: hidden; */
-    width: auto;
-    height: 0;
-    display: block;
-    position: relative;
-    background: url('../images/ec6d17d247494d0aa448f5c8ca98801e.png') calc(100% - 20px) calc(100% - 20px) / 110px 110px no-repeat;
-    margin-bottom: 30px;
-    padding: 0 0 204.188px;
+.main-cards-second {
+  width: 360px;
+  height: 204.19px;
+  display: block;
+  background-color: #1e2166;
+  border-radius: 12px;
 }
 
-.main-card-second-txt{
-    width: 360px;
-    height: 156.09px;
-    color: rgb(255, 255, 255);
-    padding: 35px 26px;
+.main-card-second-wrap {
+  /* overflow: hidden; */
+  width: auto;
+  height: 0;
+  display: block;
+  position: relative;
+  background: url("../images/ec6d17d247494d0aa448f5c8ca98801e.png")
+    calc(100% - 20px) calc(100% - 20px) / 110px 110px no-repeat;
+  margin-bottom: 30px;
+  padding: 0 0 204.188px;
 }
 
-.main-card-second-head{
-    width: 210px;
-    height: 60px;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-    overflow-wrap: break-word;
+.main-card-second-txt {
+  width: 360px;
+  height: 156.09px;
+  color: rgb(255, 255, 255);
+  padding: 35px 26px;
 }
-.main-card-second-fundbox{
-    display: block;
-    width: 195px;
-    height: 26.094px;
-    font-size: 14px;
-    padding: 10px 0px 0px;
-    /* opacity: 0.8; */
+
+.main-card-second-head {
+  width: 210px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+.main-card-second-fundbox {
+  display: block;
+  width: 195px;
+  height: 26.094px;
+  font-size: 14px;
+  padding: 10px 0px 0px;
+  /* opacity: 0.8; */
 }

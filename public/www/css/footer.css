@@ -26,11 +26,11 @@
 }
 
 .footer-bottom {
-  background-color: beige;
+  /* background-color: beige; */
   display: flex;
   width: 100%;
   margin: 0 auto;
-  justify-content: space-between
+  justify-content: space-between;
   /* gap: 575.91px; */
 }
 
@@ -42,7 +42,7 @@
 }
 
 .sns-list {
-  background-color: aqua;
+  /* background-color: aqua; */
   font-size: 20px;
   display: flex;
   gap: 10px;
@@ -53,7 +53,7 @@
 .sitemap-list-dot {
   margin: 0 11px;
 }
-.sitemap-list-dot-hide{
+.sitemap-list-dot-hide {
   margin: 0 11px;
 }
 
@@ -110,9 +110,8 @@
     font-size: 12px;
     display: block;
   }
-  .sitemap-list-corp{
+  .sitemap-list-corp {
     display: none;
-
   }
   .sitemap-list-dot-hide {
     display: none;

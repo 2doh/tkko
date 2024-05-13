@@ -1,13 +1,13 @@
-.main-card-middle{
-    width: 360px;
-    height: 387px;
-    background-color: #fff;
-    margin-bottom: 30px;
-    position: relative;
+.main-card-middle {
+  width: 360px;
+  height: 387px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  position: relative;
 }
 
-.main-card-middle-head{
-    width: 308px;
-    height: 51.2px;
-    background-color: aqua;
+.main-card-middle-head {
+  width: 308px;
+  height: 51.2px;
+  background-color: aqua;
 }
