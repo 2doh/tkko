@@ -2,10 +2,12 @@
   display: flex;
   width: 1120px;
   height: 3800px;
-  background-color: green;
+  /* background-color: green; */
   margin: 30px auto 0;
   justify-content: space-between;
 }
 @media all and (max-width: 1160px) {
-  .main{margin-left: 10px}
+  .main {
+    margin-left: 10px;
+  }
 }

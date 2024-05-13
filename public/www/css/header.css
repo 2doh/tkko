@@ -35,9 +35,11 @@
   padding: 0 14px;
   height: 100%;
   align-items: center;
+  color: #444444;
   /* border-bottom: solid 2px black; */
 }
-.header-menu-list a {
+.header-menu-list h2 {
+  color: #444444;
 }
 .list-dot {
   display: flex;
@@ -87,7 +89,9 @@
   height: 18px;
 }
 @media all and (max-width: 1160px) {
-  .header .inner {margin-left: 10px}
+  .header .inner {
+    margin-left: 10px;
+  }
 }
 @media all and (max-width: 768px) {
   .header {
