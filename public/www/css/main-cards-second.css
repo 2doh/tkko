@@ -4,9 +4,10 @@
   display: block;
   background-color: #1e2166;
   border-radius: 12px;
+  margin-bottom: 30px;
 }
 
-.main-card-second-wrap {
+.main-cards-second-wrap {
   /* overflow: hidden; */
   width: auto;
   height: 0;
@@ -18,14 +19,14 @@
   padding: 0 0 204.188px;
 }
 
-.main-card-second-txt {
+.main-cards-second-txt {
   width: 360px;
   height: 156.09px;
   color: rgb(255, 255, 255);
   padding: 35px 26px;
 }
 
-.main-card-second-head {
+.main-cards-second-head {
   width: 210px;
   height: 60px;
   font-size: 20px;
@@ -33,7 +34,7 @@
   line-height: 1.5;
   overflow-wrap: break-word;
 }
-.main-card-second-fundbox {
+.main-cards-second-fundbox {
   display: block;
   width: 195px;
   height: 26.094px;
