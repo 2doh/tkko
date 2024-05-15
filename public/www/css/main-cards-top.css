@@ -3,8 +3,9 @@
   height: 530px;
   display: block;
   margin-bottom: 30px;
-  box-shadow: rgba(0,0,0,0.1) 0px 2px 10px 0px;
   border-radius: 12px 12px 0px 0px;
+  box-shadow: rgba(0,0,0,0.1) 0px 2px 10px 0px;
+  overflow: hidden;
 }
 
 .main-cards-top-yellow {
@@ -79,8 +80,8 @@
   height: 18px;
   margin-right: 8px;
   background-image: url("../images/ico_won.png");
+  /* 아이콘 겉에 생기는 테두리 제거해야 함 */
   background-size: cover;
-  /* align-items: center; */
 }
 
 .total-donation-txt {
@@ -105,7 +106,6 @@
   padding: 31px 26px 46px;
   border-radius: 0px 0px 12px 12px;
   /* 그림자가 테두리 가려짐 */
-  box-sizing: border-box;
 }
 
 .main-cards-top-white-head {
