@@ -13,6 +13,7 @@
 .main-cards-bottom-head {
   width: 308px;
   height: 32.2px;
+  display: block;
   font-size: 20px;
   font-family: KakaoBig Bold;
   color: #202020;
@@ -39,6 +40,8 @@
   background-color: #aaa6a2;
   margin: 2px;
   padding: 15px 12px 12px;
+  border-radius: 4px;
+
 }
 
 .main-cards-bottom-list-inner-yellow {
@@ -48,10 +51,10 @@
   background-color: #ffc900;
   margin: 2px;
   padding: 15px 12px 12px;
+  border-radius: 4px;
 }
 
 .main-cards-bottom-list-link {
-  background-color: plum;
   display: inline-block;
 }
 
@@ -67,6 +70,9 @@
   width: 24px;
   height: 24px;
   display: block;
-  position: absolute;
   background: url("../images/ico_arrow_inverted.png") 50% 50% / cover no-repeat;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+
 }
