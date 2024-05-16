@@ -3,7 +3,7 @@
   border-top: 1px solid rgb(238, 238, 238);
 }
 .footer .inner {
-  height: 94px;
+  height: 100%;
   /* margin: 0 auto; */
   align-items: flex-start;
   flex-direction: column;
@@ -34,32 +34,72 @@
   /* gap: 575.91px; */
 }
 
-.sitemap-list {
+.footer-bottom-sitemap-list{
   display: flex;
-  /* gap: 11px; */
-  font-size: 14px;
-  padding: 6px 0;
+  align-items: center;
+  width: 409.13px;
+  height: 32.01px;
 }
 
-.sns-list {
-  /* background-color: aqua; */
-  font-size: 20px;
+.footer-bottom-sitemap{
   display: flex;
-  gap: 10px;
-  justify-content: center;
-  /* sns 리스트 오른쪽 여백 없도록 함 */
+  align-items: center;
+}
+
+.footer-bottom-sitemap-link{
+  display: inline-block;
+}
+
+.footer-bottom-sitemap-txt{
+  display: inline-block;
+  padding: 6px 0px;
+  font-size: 13px;
+  color: #444444;
+}
+
+.footer-bottom-sitemap-txt-hidden{
+  display: inline-block;
+  padding: 6px 0px;
+  font-size: 13px;
+  color: #444444;
 }
 
 .sitemap-list-dot {
-  margin: 0 11px;
-}
-.sitemap-list-dot-hide {
-  margin: 0 11px;
+  display: block;
+  margin: 7px;
 }
 
-.footer-bottom-hidden {
+.sitemap-list-dot-hidden {
+  display: block;
+  margin: 7px;
+}
+
+.footer-bottom-sns-list{
+  width: 110px;
+  height: 32.01px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.footer-bottom-sns{
+  width: 30px;
+  height: 32.01px;
+}
+
+.footer-bottom-sns-link{
+  display: inline-block;
+}
+
+.footer-bottom-sns-txt{
+  width: 30px;
+}
+
+.mb-footer-bottom-txt{
   display: none;
 }
+
 @media all and (max-width: 768px) {
   .footer {
     width: 100%;
@@ -67,10 +107,10 @@
     padding: 27px 20px 29px;
   }
   .footer .inner {
-    /* background-color: aqua; */
-    height: 189px;
+    width: 100%;
+    height: 100%;
     display: flex;
-    margin: 0 auto;
+    align-items: center;
   }
   .footer-logo {
     margin: 0 auto;
@@ -95,38 +135,20 @@
     gap: 16px;
     border-top: 1px solid rgb(238, 238, 238);
   }
-  .footer-bottom-sitemap {
-  }
-  .Corp {
-    display: none;
-  }
-  .sitemap-list {
-  }
-  .sitemap-list-dot {
-  }
-  .sns-list {
-  }
-  .footer-bottom-hidden {
-    font-size: 12px;
-    display: block;
-  }
-  .sitemap-list-corp {
-    display: none;
-  }
-  .sitemap-list-dot-hide {
-    display: none;
+  .footer-bottom-sitemap-list{
   }
 
-  .footer-bottom-hidden {
-    font-size: 12px;
-    color: #444444;
-    align-items: center;
-  }
-
-  .gogo {
+  .footer-bottom-sitemap-txt{
     display: flex;
 
-    /* font-family: KakaoBig Regular; */
-    justify-content: space-between;
   }
+
+  .footer-bottom-sitemap-txt-hidden{
+    display: none;
+  }
+
+  .sitemap-list-dot-hidden{
+    display: none;
+  }
+
 }

@@ -3,8 +3,9 @@
   height: 530px;
   display: block;
   margin-bottom: 30px;
-  border-radius: 12px 12px 0px 0px;
+  border-radius: 12px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px;
+  /* overflow: hidden; */
 }
 
 .main-cards-top-yellow {

@@ -37,6 +37,8 @@
   width: 152px;
   height: 152px;
   display: flex;
+  position: absolute;
+  /* 화살표가 inner안으로 배치되게해줌 */
   background-color: #aaa6a2;
   margin: 2px;
   padding: 15px 12px 12px;
@@ -48,6 +50,7 @@
   width: 152px;
   height: 152px;
   display: flex;
+  position: absolute;
   background-color: #ffc900;
   margin: 2px;
   padding: 15px 12px 12px;
