@@ -1,72 +1,76 @@
-.main-cards-bottom{
-    width: 360px;
-    height: 419.2px;
-    background-color: #fff;
-    padding: 30px 26px;
-    margin-bottom: 30px;
-    display: block;
-    position: relative;
-    border-radius: 12px;
-    box-shadow: rgba(0,0,0,0.1) 0px 2px 10px 0px;
+.main-cards-bottom {
+  width: 360px;
+  height: 419.2px;
+  background-color: #fff;
+  padding: 30px 26px;
+  margin-bottom: 30px;
+  display: block;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 10px 0px;
 }
 
-.main-cards-bottom-head{
-    width: 308px;
-    height: 32.2px;
-    font-size: 20px;
-    font-family: KakaoBig Bold;
-    color: #202020;
-    margin-bottom: 19px;
+.main-cards-bottom-head {
+  width: 308px;
+  height: 32.2px;
+  display: block;
+  font-size: 20px;
+  font-family: KakaoBig Bold;
+  color: #202020;
+  margin-bottom: 19px;
 }
 
-.main-cards-bottom-wrap{
-    width: 312px;
-    height: 312px;
-    display: flex;
-    flex-wrap: wrap;
+.main-cards-bottom-wrap {
+  width: 312px;
+  height: 312px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.main-cards-bottom-list{
-    position: relative;
-    width: 50%;
-    height: 0px;
+.main-cards-bottom-list {
+  position: relative;
+  width: 50%;
+  height: 0px;
 }
 
-.main-cards-bottom-list-inner-gray{
-    width: 152px;
-    height: 152px;
-    display: flex;
-    background-color: #AAA6A2;
-    margin: 2px;
-    padding: 15px 12px 12px;
+.main-cards-bottom-list-inner-gray {
+  width: 152px;
+  height: 152px;
+  display: flex;
+  background-color: #aaa6a2;
+  margin: 2px;
+  padding: 15px 12px 12px;
+  border-radius: 4px;
 }
 
-.main-cards-bottom-list-inner-yellow{
-    width: 152px;
-    height: 152px;
-    display: flex;
-    background-color: #FFC900;
-    margin: 2px;
-    padding: 15px 12px 12px;
+.main-cards-bottom-list-inner-yellow {
+  width: 152px;
+  height: 152px;
+  display: flex;
+  background-color: #ffc900;
+  margin: 2px;
+  padding: 15px 12px 12px;
+  border-radius: 4px;
 }
 
-.main-cards-bottom-list-link{
-    background-color: plum;
-    display: inline-block;
+.main-cards-bottom-list-link {
+  display: inline-block;
 }
 
-.main-cards-bottom-list-txt{
-    color:#fff;
-    font-size: 15px;
-    display: block;
-    letter-spacing: -0.4px;
-    line-height: 1.52;
+.main-cards-bottom-list-txt {
+  color: #fff;
+  font-size: 15px;
+  display: block;
+  letter-spacing: -0.4px;
+  line-height: 1.52;
 }
 
-.main-cards-bottom-list-arrow{
-    width: 24px;
-    height: 24px;
-    display: block;
-    position: absolute;
-    background: url("../images/ico_arrow_inverted.png")50% 50% / cover no-repeat;;
+.main-cards-bottom-list-arrow {
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url("../images/ico_arrow_inverted.png") 50% 50% / cover no-repeat;
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
 }
