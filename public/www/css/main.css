@@ -1,7 +1,7 @@
 .main {
   display: flex;
   width: 1120px;
-  height: 3800px;
+  height: 100%;
   /* background-color: green; */
   margin: 30px auto 0;
   justify-content: space-between;
@@ -9,5 +9,16 @@
 @media all and (max-width: 1160px) {
   .main {
     margin-left: 10px;
+  }
+}
+@media all and (max-width: 768px) {
+  .main {
+    width: auto;
+    max-width: 750px;
+    margin-left: 0;
+    padding: 0 20px 0 20px;
+  }
+  .main-cards {
+    display: none;
   }
 }

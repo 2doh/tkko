@@ -1,6 +1,8 @@
 .main-news-top {
   width: 700px;
   height: auto;
+  line-height: 1.5;
+  background-color: seagreen;
 }
 .main-news-top-banner {
   width: 100%;
@@ -17,6 +19,7 @@
   margin-bottom: 30px;
   padding: 24px 30px 32px;
   background-color: white;
+  position: relative;
 }
 
 .main-news-top-imminent-title {
@@ -43,13 +46,30 @@
 .imminent-img {
   width: 280px;
   height: 168px;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: url("../images/c1400x960\(11\).jpg") no-repeat center;
   background-size: cover;
   border-radius: 10px;
+  position: relative;
+}
+.imminent-img-endimmin {
+  position: absolute;
+  top: 131px;
+  left: 10px;
+  width: 58.5px;
+  height: 26.99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px 5px;
+  background-color: #ff4050;
+  font-size: 11px;
+  color: white;
+  border-radius: 5px;
 }
 
 .imminent-img-top {
+  position: absolute;
   width: 280px;
   height: 40px;
   display: flex;
@@ -57,9 +77,13 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0 10px;
-  background-color: black;
+  background-color: #202020;
   font-size: 14px;
   color: #c9c9c9;
+  top: 90px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 99;
 }
 
 .imminent-contents {
@@ -101,22 +125,6 @@
 }
 
 .imminent-num:hover {
-}
-
-.imminent-img-endimmin {
-  position: relative;
-  top: 90px;
-  left: 10px;
-  width: 58.5px;
-  height: 26.99px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px 8px 5px;
-  background-color: #ff4050;
-  font-size: 11px;
-  color: white;
-  border-radius: 5px;
 }
 
 .imminent-contents .gaugebar {
@@ -375,4 +383,40 @@
 .time-limited-clock:hover .time-limited-clock-axis {
   transform: rotate(360deg);
   transition: all 1s ease-in;
+}
+@media all and (max-width: 768px) {
+  .main-news-top-banner {
+    display: none;
+  }
+  .main-news-top-imminent {
+    margin: 20px 0 0 0;
+    padding: 26px 20px 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 710px;
+    height: 106.18vw;
+    max-height: 668.69px;
+  }
+  .main-news-top-mostfund {
+    margin: 20px 0 0 0;
+    border-radius: 12px;
+  }
+  .imminent-inner {
+    display: block;
+  }
+  .imminent-img {
+    width: 100%;
+    max-width: 710px;
+    height: 208.4vw;
+    max-height: 340.69px;
+  }
+  .imminent-img-endimmin {
+    top: 308px;
+  }
+  .imminent-img-top {
+    position: static;
+    margin-bottom: 8px;
+    width: 100%;
+    border-radius: 10px;
+  }
 }
