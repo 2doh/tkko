@@ -2,7 +2,6 @@
   width: 700px;
   height: auto;
   line-height: 1.5;
-  background-color: seagreen;
 }
 .main-news-top-banner {
   width: 100%;
@@ -385,38 +384,11 @@
   transition: all 1s ease-in;
 }
 @media all and (max-width: 768px) {
+  .main-news-top {
+    background-color: green;
+    margin-top: 20px;
+  }
   .main-news-top-banner {
     display: none;
-  }
-  .main-news-top-imminent {
-    margin: 20px 0 0 0;
-    padding: 26px 20px 30px;
-    border-radius: 12px;
-    width: 100%;
-    max-width: 710px;
-    height: 106.18vw;
-    max-height: 668.69px;
-  }
-  .main-news-top-mostfund {
-    margin: 20px 0 0 0;
-    border-radius: 12px;
-  }
-  .imminent-inner {
-    display: block;
-  }
-  .imminent-img {
-    width: 100%;
-    max-width: 710px;
-    height: 208.4vw;
-    max-height: 340.69px;
-  }
-  .imminent-img-endimmin {
-    top: 308px;
-  }
-  .imminent-img-top {
-    position: static;
-    margin-bottom: 8px;
-    width: 100%;
-    border-radius: 10px;
   }
 }

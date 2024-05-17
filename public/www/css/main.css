@@ -12,13 +12,13 @@
   }
 }
 @media all and (max-width: 768px) {
-  .main {
-    width: auto;
-    max-width: 750px;
-    margin-left: 0;
-    padding: 0 20px 0 20px;
+  .wrap {
+    width: 100%;
   }
-  .main-cards {
-    display: none;
+  .main {
+    margin: 0 20px 0;
+    width: 100%;
+    max-width: 710px;
+    display: block;
   }
 }
