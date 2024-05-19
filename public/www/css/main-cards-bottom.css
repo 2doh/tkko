@@ -79,3 +79,12 @@
   bottom: 12px;
 
 }
+
+/* 반응형 */
+@media all and (max-width: 768px){
+.main-cards-bottom{
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 30px 26px;
+}
+}
