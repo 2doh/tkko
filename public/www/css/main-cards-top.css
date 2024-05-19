@@ -64,6 +64,10 @@
   display: block;
 }
 
+.total-donation-link{
+  display: block;
+}
+
 .total-donation-inner {
   /* background-color: aqua; */
   height: 60px;
@@ -102,6 +106,7 @@
 .main-cards-top-white {
   width: 360px;
   height: 281px;
+  display: block;
   background-color: #fff;
   padding: 31px 26px 46px;
   border-radius: 0px 0px 12px 12px;
@@ -123,6 +128,7 @@
 }
 
 .main-cards-top-white-body {
+  box-sizing: border-box;
 }
 
 .main-cards-top-slider-container {
@@ -157,4 +163,58 @@
   font-size: 14px;
   padding: 11px 0px 0px;
   line-height: 1.92;
+}
+
+/* 반응형 */
+@media all and (max-width : 768px) {
+  .main-cards-top{
+    width: 100%;
+  }
+
+  .main-cards-top-yellow{
+    width: 100%;
+  }
+  
+  .total-donation {
+    width: 100%;
+    display: block
+  }
+  
+  .main-cards-top-white {
+    width: 100%;
+    padding: 30px 20px 26px;
+  }
+  
+  .main-cards-top-white-head-h4 {
+    display: block;
+  }
+  
+  .main-cards-top-white-body {
+    background-color: aquamarine;
+  }
+  
+  .main-cards-top-slider-container {
+  }
+  
+  .main-cards-top-white-body-contents {
+  }
+  
+  .main-cards-top-white-body-contents-link {
+  }
+  
+  .main-cards-top-white-body-contents-wrap {
+    width: 100%;
+  }
+  
+  .main-cards-top-white-body-contents-head {
+    font-size: 17px;
+    padding: 20px 0 0;
+  }
+  
+  .main-cards-top-white-body-contents-txt {
+    max-height: 125px;
+    padding-top: 11px;
+    font-size: 14px;
+    padding: 15px 0 0;
+  }
 }

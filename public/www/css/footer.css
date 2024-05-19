@@ -1,44 +1,50 @@
 .footer {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
   padding: 40px 0 45px;
   border-top: 1px solid rgb(238, 238, 238);
 }
 .footer .inner {
-  height: 100%;
-  /* margin: 0 auto; */
+  width: 1120px;
+  height: 94.33px;
+  display: flex; 
   align-items: flex-start;
   flex-direction: column;
+  margin: 0 10px
 }
 
 .footer-logo {
-}
-
-.footer-logo img {
+  flex-shrink: 0;
+  display: block;
   width: 115px;
   height: 18px;
-  display: block;
+  background: url("../images/logo_mo.svg") center center / contain no-repeat;
 }
 
 .footer-info {
   padding: 16px 0 18px;
   font-size: 14px;
   color: #444444;
-  /* 글자 색상 왜 안바뀌지?? */
 }
 
 .footer-bottom {
-  /* background-color: beige; */
   display: flex;
   width: 100%;
-  margin: 0 auto;
   justify-content: space-between;
-  /* gap: 575.91px; */
+  align-items: center;
+  padding-top: 10px;
+  gap: 16px;
 }
 
 .footer-bottom-sitemap-list {
   display: flex;
-  align-items: center;
-  width: 409.13px;
+  width: 434.07px;
   height: 32.01px;
+  align-items: center;
 }
 
 .footer-bottom-sitemap {
@@ -76,7 +82,7 @@
 
 .footer-bottom-sns-list {
   width: 110px;
-  height: 32.01px;
+  height: 33.98px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,16 +90,19 @@
 }
 
 .footer-bottom-sns {
-  width: 30px;
-  height: 32.01px;
+  position: relative;
+  display: list-item;
 }
 
 .footer-bottom-sns-link {
-  display: inline-block;
 }
 
 .footer-bottom-sns-txt {
   width: 30px;
+  padding: 6px 0px;
+  display: block;
+  text-align: center;
+  /* 이미지 가운데 오게 함 */
 }
 
 .mb-footer-bottom-txt {
@@ -102,22 +111,19 @@
 
 @media all and (max-width: 768px) {
   .footer {
-    width: 100%;
     height: 251.3px;
     padding: 27px 20px 29px;
   }
   .footer .inner {
     width: 100%;
-    height: 100%;
+    height: 100%;;
     display: flex;
     align-items: center;
+    margin: 0 auto;
   }
   .footer-logo {
     margin: 0 auto;
-    display: flex;
-  }
-  .footer-logo img {
-    margin-top: 0;
+    display: block;
     width: 100px;
     height: 16px;
   }
@@ -132,11 +138,12 @@
     /* 아이템들 수직 방향 정렬 */
     align-items: center;
     margin: 0 auto;
-    padding: 10px;
     gap: 16px;
     border-top: 1px solid rgb(238, 238, 238);
   }
   .footer-bottom-sitemap-list {
+    width: 296.33px;
+    height: 33.98px;
   }
 
   .footer-bottom-sitemap-txt {
@@ -158,5 +165,6 @@
   .mb-footer-bottom-hidden {
     font-size: 12px;
     color: #444444;
+    font-family: "KakaoBig regular";
   }
 }
