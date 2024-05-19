@@ -11,14 +11,15 @@
     margin-left: 10px;
   }
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .wrap {
     width: 100%;
   }
   .main {
-    margin: 0 20px 0;
-    width: 100%;
-    max-width: 710px;
+    margin : 40px 0 0;
     display: block;
+    padding: 0 20px 20px;
+    width: 100%;
+    max-width: 768px;
   }
 }
