@@ -11,10 +11,10 @@
 .footer .inner {
   width: 1120px;
   height: 94.33px;
-  display: flex; 
+  display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin: 0 10px
+  margin: 0 10px;
 }
 
 .footer-logo {
@@ -42,9 +42,10 @@
 
 .footer-bottom-sitemap-list {
   display: flex;
-  width: 434.07px;
-  height: 32.01px;
+  width: 434.09px;
+  height: 33.97px;
   align-items: center;
+  justify-content: center;
 }
 
 .footer-bottom-sitemap {
@@ -59,7 +60,7 @@
 .footer-bottom-sitemap-txt {
   display: inline-block;
   padding: 6px 0px;
-  font-size: 13px;
+  font-size: 14px;
   color: #444444;
 }
 
@@ -116,7 +117,7 @@
   }
   .footer .inner {
     width: 100%;
-    height: 100%;;
+    height: 100%;
     display: flex;
     align-items: center;
     margin: 0 auto;
@@ -140,10 +141,6 @@
     margin: 0 auto;
     gap: 16px;
     border-top: 1px solid rgb(238, 238, 238);
-  }
-  .footer-bottom-sitemap-list {
-    width: 296.33px;
-    height: 33.98px;
   }
 
   .footer-bottom-sitemap-txt {
