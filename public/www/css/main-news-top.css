@@ -201,7 +201,7 @@
 .imminent-popup-text {
   display: none;
 }
-.left-buttons:hover .imminent-popup-tail {
+.imminent-popup-tail {
   position: absolute;
   top: 20px;
   left: 17px;
@@ -210,9 +210,12 @@
   border-bottom: 10px solid #202020;
   border-right: 7.81px solid transparent;
   border-left: 7.81px solid transparent;
+  opacity: 0;
+  transition: 0.5s;
 }
-.left-buttons:hover .imminent-popup-text {
+.imminent-popup-text {
   position: absolute;
+  overflow: hidden;
   top: 26px;
   bottom: 0px;
   width: 145px;
@@ -223,23 +226,20 @@
   background-color: #202020;
   font-size: 12px;
   color: #ffffdb;
-  /* 원사이트의 font-size는 14px */
   border-radius: 5px;
+  opacity: 0;
+  transition: 0.5s;
 }
 .main-news-top-mostfund {
-  width: 700px;
-  height: auto;
   margin-bottom: 30px;
   padding: 24px 30px 32px;
   background-color: white;
 }
 .mostfund-title {
-  height: 28px;
   font-size: 20px;
   color: #202020;
 }
 .mostfund-subtitle {
-  height: 28px;
   display: block;
   align-items: center;
   padding-top: 4px;
@@ -247,58 +247,53 @@
   color: #666666;
 }
 .mostfund-inner {
-  width: 660px;
-  height: 299.43px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: -20px -10px;
   padding-top: 16px;
+  gap: 20px;
 }
 .mostfund-box {
-  width: 220px;
-  height: 255.44px;
 }
 .mostfund-img {
-  width: 199.97px;
-  height: 137.46px;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
-  background: url("../images/c1400x960\ \(4\).jpg") no-repeat center;
   background-size: contain;
   border-radius: 15px;
 }
 .mostfund-textbox {
-  width: 199.97px;
-  height: auto;
   margin: 0 auto;
   padding-top: 12px;
 }
 .mostfund-content {
-  height: 20px;
   display: block;
   font-size: 14px;
   color: #202020;
 }
 .mostfund-sub {
-  height: 17.99px;
   display: block;
   margin-top: 2px;
   font-size: 12px;
   color: #888888;
 }
 .mostfund-bottom {
-  width: 100%;
-  height: 33.99px;
   margin-top: 20px;
   padding-top: 8px;
 }
 .mostfund-text {
-  width: 100%;
-  height: 24.01px;
   display: flex;
   justify-content: space-between;
   padding-top: 4px;
   font-size: 12px;
+}
+.main-news-top-timelimited {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  padding: 24px 30px 32px;
+  background-color: white;
+  position: relative;
 }
 .time-limited-title {
   width: 100%;
@@ -313,7 +308,7 @@
   font-size: 15px;
   color: #666666;
 }
-.time-limited-img{
+.time-limited-img {
   width: 280px;
   height: 168px;
   background: url("../images/c1400x960\ \(8\).jpg") no-repeat center;
@@ -372,9 +367,38 @@
   rotate: 270deg;
   border-radius: 5px;
 }
-.time-limited-clock:hover .time-limited-clock-axis {
+.time-limited-clock .time-limited-clock-axis {
   transform: rotate(360deg);
   transition: all 1s ease-in;
+}
+.time-limited-popup-tail {
+  position: absolute;
+  top: 20px;
+  left: 17px;
+  width: 0px;
+  height: 0px;
+  border-bottom: 10px solid #202020;
+  border-right: 7.81px solid transparent;
+  border-left: 7.81px solid transparent;
+  opacity: 0;
+  transition: 0.5s;
+}
+.time-limited-popup-text {
+  position: absolute;
+  overflow: hidden;
+  top: 26px;
+  bottom: 0px;
+  width: 145px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #202020;
+  font-size: 12px;
+  color: #ffffdb;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.5s;
 }
 .tags-title {
   width: 100%;
@@ -397,26 +421,21 @@
 }
 @media all and (max-width: 767px) {
   .main-news-top {
-    background-color: green;
     width: 100%;
   }
-  .main-news-top-banner  {
+  .main-news-top-banner {
     width: 100%;
     max-width: 727px;
     height: 94.78vw;
     max-height: 727px;
     background-size: contain;
   }
-  .main-news-top-imminent{
-    width: 100%;
-    height: 88.30vw;
-    max-height: 665px;
-    padding: 26px 20px 30px;
+  .main-news-top-imminent {
   }
-  .imminent-inner{
-    display: block;
+  .imminent-inner {
+    flex-wrap: wrap;
   }
-  .imminent-img-top{
+  .imminent-img-top {
     width: 100%;
     position: inherit;
     border-bottom-left-radius: 10px;
@@ -429,10 +448,10 @@
     /* 349px / 767px * 100 = 45.52 */
     max-height: 349px;
   }
-  .imminent-img-endimmin{
+  .imminent-img-endimmin {
     top: calc(90%);
   }
-  .imminent-contents{
+  .imminent-contents {
     padding: 0;
     margin-top: 10px;
     width: 100%;
@@ -440,55 +459,65 @@
     height: 100%;
     max-height: 156px;
   }
-  .imminent-contents .gaugebar{
+  .imminent-title {
+    font-size: 16px;
+  }
+  .imminent-contents .gaugebar {
     height: 6px;
   }
-  .imminent-contents .gaugebar .gauge{
+  .imminent-contents .gaugebar .gauge {
     height: 6px;
   }
-  .imminent-buttons{
+  .imminent-buttons {
     width: 100%;
     justify-content: space-between;
     gap: 10px;
     margin: 0;
     max-height: 56px;
-    height: 7.30vw;
+    height: 7.3vw;
   }
-  .imminent-buttons button{
+  .imminent-buttons button {
     width: 100%;
   }
-  .main-news-top-mostfund{
+  .main-news-top-mostfund {
     width: 100%;
-    height: 58.80vw;
-    max-height: 451px;
+    height: 447px;
+    /* height: 58.8vw;
+    max-height: 451px; */
+    overflow-y: hidden;
   }
-  .mostfund-inner{
-    display: block;
+  .mostfund-inner {
     width: 100%;
     max-height: 328px;
     height: 42.76vw;
+    display: block;
   }
-  .mostfund-box{
+  .mostfund-box {
     display: flex;
     width: 100%;
     height: 86px;
-    margin: 16px;
+    margin-top: 16px;
   }
-  .mostfund-img{
+  .mostfund-img {
     width: 124px;
     height: 86px;
     margin: 0;
   }
-  .mostfund-textbox{
+  .mostfund-textbox {
     margin: 0;
     padding: 0 0 0 16px;
     width: 100%;
     max-width: 563px;
   }
-  .mostfund-bottom{
+  .mostfund-bottom {
     margin: 0 auto;
   }
-  .time-limited-img-top{
+  .main-news-top-timelimited {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .time-limited-img-top {
     width: 100%;
     max-width: 134px;
     position: inherit;
@@ -498,5 +527,23 @@
     color: #202020;
     font-size: 24px;
     border-bottom: solid 1px #202020;
+    border-top: solid 1px #202020;
+    border-radius: 0px;
+  }
+  .time-limited-title {
+    display: flex;
+    justify-content: center;
+  }
+  .time-limited-subtitle {
+    display: flex;
+    justify-content: center;
+  }
+  .time-limited-img {
+    width: 100%;
+    height: 45.54vw;
+    max-height: 349.33px;
+  }
+  .tags-title {
+    margin-bottom: 0;
   }
 }
