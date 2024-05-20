@@ -44,27 +44,22 @@
 }
 
 /* 반응형 */
-@media all and (max-width: 768px){
-.main-cards-second{
-  width: 100%;
-  
-}
+@media all and (max-width: 768px) {
+  .main-cards-second {
+    width: 100%;
+    height: 56.72vw;
+    max-height: 412.34px;
+  }
 
-.main-cards-second-wrap{
-  z-index: 10;
-  display: block;
-  overflow: hidden;
-  position: relative;
-  width: auto;
-  height: 0px;
-  padding-bottom: 56.72%;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  background: url("../images/ec6d17d247494d0aa448f5c8ca98801e.png") calc(100% - 20px) calc(100% - 20px) / 110px 110px no-repeat rgb(30, 33, 102);
-}
+  .main-cards-second-wrap {
+    padding-bottom: 56.72%;
+    border-radius: 10px;
+    background: url("../images/ec6d17d247494d0aa448f5c8ca98801e.png")
+      calc(100% - 20px) calc(100% - 20px) / 110px 110px no-repeat
+      rgb(30, 33, 102);
+  }
 
-.main-cards-second-txt{
-  display: block;
-  padding: 30px 20px;
-}
+  .main-cards-second-txt {
+    padding: 30px 20px;
+  }
 }
