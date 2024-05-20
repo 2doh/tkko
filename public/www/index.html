@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./css/main-cards-middle.css">
     <link rel="stylesheet" href="./css/main-cards-bottom.css">
     <link rel="stylesheet" href="./css/footer.css" />
+    <script src="./js/heartbox.js"></script>
+    <script src="./js/clockrote.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -132,7 +134,7 @@
               <span class="mostfund-subtitle">오늘, 기부 하셨나요? 당신의 마음도 함께 나눠주세요!</span>
               <div class="mostfund-inner">
                 <div class="mostfund-box">
-                  <div class="mostfund-img"></div>
+                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
                   <div class="mostfund-textbox">
                       <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
                       <span class="mostfund-sub">EBS나눔0700위원회</span>
@@ -148,7 +150,7 @@
                   </div>                  
                 </div>
                 <div class="mostfund-box">
-                  <div class="mostfund-img"></div>
+                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
                   <div class="mostfund-textbox">
                       <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
                       <span class="mostfund-sub">EBS나눔0700위원회</span>
@@ -164,7 +166,7 @@
                   </div>                  
                 </div>
                 <div class="mostfund-box">
-                  <div class="mostfund-img"></div>
+                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
                   <div class="mostfund-textbox">
                       <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
                       <span class="mostfund-sub">EBS나눔0700위원회</span>
@@ -181,11 +183,11 @@
                 </div>
               </div>
             </div>
-            <div class="main-news-top-imminent br-20 shadow">
+            <div class="main-news-top-timelimited br-20 shadow">
               <div class="time-limited-img-top">
                 <div class="time-limited-clock">
                   <div class="time-limited-clock-hour"></div>
-                  <div class="time-limited-clock-axis">
+                  <div class="time-limited-clock-axis" id="axisrote">
                     <div class="time-limited-clock-minite">                        
                     </div>
                   </div>
@@ -215,8 +217,8 @@
                   </div></a>
                   <div class="imminent-buttons">
                     <button><a href="#"><div class="left-buttons"><img src="./images/ico_side_fundraising.svg" alt="하트로고" />하트응원
-                      <div class="imminent-popup-tail"></div>
-                      <span class="imminent-popup-text">카카오가 대신 100원 기부!</span></div></a></button>
+                      <div class="time-limited-popup-tail"></div>
+                      <span class="time-limited-popup-text">카카오가 대신 100원 기부!</span></div></a></button>
                     <button><a href="#"><span>기부하기</span></a></button>
                   </div>
                 </div>
@@ -232,7 +234,7 @@
               </div>
               <div class="mostfund-inner">
                 <div class="mostfund-box">
-                  <div class="mostfund-img"></div>
+                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
                   <div class="mostfund-textbox">
                       <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
                       <span class="mostfund-sub">EBS나눔0700위원회</span>
@@ -248,9 +250,9 @@
                   </div>                  
                 </div>
                 <div class="mostfund-box">
-                  <div class="mostfund-img"></div>
+                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
                   <div class="mostfund-textbox">
-                      <strong class="mostfund-content">그래도 우리는 행복한 가족입니다</strong>
+                      <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
                       <span class="mostfund-sub">EBS나눔0700위원회</span>
                     <div class="mostfund-bottom">
                       <div class="gaugebar">
@@ -261,12 +263,12 @@
                         <h2 style="color:#ff4050; font-weight: 600">22%</h2>
                       </div>
                     </div>
-                  </div>
+                  </div>                  
                 </div>
                 <div class="mostfund-box">
-                  <div class="mostfund-img"></div>
+                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
                   <div class="mostfund-textbox">
-                      <strong class="mostfund-content">그래도 우리는 행복한 가족입니다</strong>
+                      <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
                       <span class="mostfund-sub">EBS나눔0700위원회</span>
                     <div class="mostfund-bottom">
                       <div class="gaugebar">
@@ -286,11 +288,11 @@
             <div class="main-news-bottom-slide br-20 shadow">
               <img src="./images/f3f763631bbc48288935c06ad6520e61.jpg">
               <div class="main-news-bottom-slide-textbox">
-                <div class="main-news-bottom-slide-textbox-inner">
+                <div class="main-news-bottom-slide-textbox-inner">                  
                   <span class="slide-textbox-hashtag">#모두의행동</span>
                   <h2 class="slide-textbox-title">카카오톡 그린 사용 설명서</h2>
                   <span class="slide-textbox-subtitle">카카오 그린 사용 설명서를 실천하고 건강한 디지털 습관을 가져볼까요?</span>
-                  <span class="slide-textbox-box"><svg class="slide-text-box-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28 28" width="14" height="14" opacity="1" class="sc-62ee9b1b-0 gsIhNz"><g fill="none" fill-rule="evenodd"><path d="m15.414.566 2.934 2.933L22.5 3.5a2 2 0 0 1 2 2v4.15l2.934 2.936a2 2 0 0 1 0 2.828L24.5 18.35 24.5 22.5a2 2 0 0 1-2 2h-4.15l-2.936 2.934a2 2 0 0 1-2.828 0L9.65 24.5 5.5 24.5a2 2 0 0 1-2-2v-4.152L.565 15.414a2 2 0 0 1 0-2.828L3.499 9.65 3.5 5.5a2 2 0 0 1 2-2h4.151L12.586.565a2 2 0 0 1 2.828 0z" fill="#ad4cfe"></path><path d="M18.02 9.62a1 1 0 0 1 1.677 1.082l-.068.106-6.066 8.21a1 1 0 0 1-1.443.175l-.09-.085-3.506-3.73a1 1 0 0 1 1.366-1.456l.091.086 2.685 2.857 5.354-7.246z" fill="#fff" fill-rule="nonzero"></path></g></svg>5,363명 행동중</span>
+                  <div class="slide-textbox-box"><svg class="slide-text-box-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 28 28" width="14" height="14" opacity="1" class="sc-62ee9b1b-0 gsIhNz"><g fill="none" fill-rule="evenodd"><path d="m15.414.566 2.934 2.933L22.5 3.5a2 2 0 0 1 2 2v4.15l2.934 2.936a2 2 0 0 1 0 2.828L24.5 18.35 24.5 22.5a2 2 0 0 1-2 2h-4.15l-2.936 2.934a2 2 0 0 1-2.828 0L9.65 24.5 5.5 24.5a2 2 0 0 1-2-2v-4.152L.565 15.414a2 2 0 0 1 0-2.828L3.499 9.65 3.5 5.5a2 2 0 0 1 2-2h4.151L12.586.565a2 2 0 0 1 2.828 0z" fill="#ad4cfe"></path><path d="M18.02 9.62a1 1 0 0 1 1.677 1.082l-.068.106-6.066 8.21a1 1 0 0 1-1.443.175l-.09-.085-3.506-3.73a1 1 0 0 1 1.366-1.456l.091.086 2.685 2.857 5.354-7.246z" fill="#fff" fill-rule="nonzero"></path></g></svg>5,363명 행동중</div>
                   <div class="main-news-bottom-slide-pagination br-20">1/3</div>
                 </div>                
               </div>
@@ -311,7 +313,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>           
             <div class="main-news-bottom-news br-20 shadow">
               <img src="./images/c1400x788 (1).jpg">
               <div class="main-news-bottom-slide-textbox">
@@ -328,7 +330,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>           
             <div class="main-news-bottom-news br-20 shadow">
               <img src="./images/c1400x788 (1).jpg">
               <div class="main-news-bottom-slide-textbox">
@@ -345,7 +347,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>           
             <div class="main-news-bottom-news br-20 shadow">
               <img src="./images/c1400x788 (1).jpg">
               <div class="main-news-bottom-slide-textbox">
@@ -362,7 +364,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div>           
             <div class="main-news-bottom-news br-20 shadow">
               <img src="./images/c1400x788 (1).jpg">
               <div class="main-news-bottom-slide-textbox">
@@ -379,24 +381,9 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="main-news-bottom-news br-20 shadow">
-              <img src="./images/c1400x788 (1).jpg">
-              <div class="main-news-bottom-slide-textbox">
-                <div class="main-news-bottom-slide-textbox-inner">
-                  <span class="bottom-news-hashtag">#교육지원</span>
-                  <h2 class="bottom-news-title">철수의 꿈을 함께 찾아주세요.</h2>
-                  <span class="bottom-news-subtitle">
-                    관심이 필요한 철수 철수(가명)는 고령 장애인이신 아버지, 어머니와 함께 살고 있는 고령 장애 가정입니다. 아버지와 나이 차이가 많이 나는 철수는 지금가지도 아버지와의 관계가 많이 어색하여 박을 같이 먹은적...
-                  </span>
-                  <a href="#"><div class="gaugebar"><div class="gauge"></div></div></a>
-                  <div class="main-news-bottom-news-gaugetext">
-                    <h2 class="main-news-bottom-news-gaugetext-left">1,826,699원</h2>
-                    <h2 class="main-news-bottom-news-gaugetext-right">51%</h2>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </div>           
+            
+                      
           </div>
         </div>
         <div class="main-cards">
