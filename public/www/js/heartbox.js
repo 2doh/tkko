@@ -1,7 +1,6 @@
 window.addEventListener("load", function () {
   const showhearttail = document.querySelector(".imminent-popup-tail");
   const showheartbox = document.querySelector(".imminent-popup-text");
-  console.log(showheartbox);
   const shocheertail = document.querySelector(".time-limited-popup-tail");
   const showcheerbox = document.querySelector(".time-limited-popup-text");
 
