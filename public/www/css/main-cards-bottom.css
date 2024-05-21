@@ -79,19 +79,36 @@
 }
 
 /* 반응형 */
-@media all and (max-width: 768px) {
-  /* .main-cards-bottom {
+@media all and (max-width: 767px) {
+  .main-cards-bottom {
     width: 100%;
-    max-width: 727px;
-    height: 109.07vw;
-    max-height: 793px;
-    margin-bottom: 30px;
-    padding: 30px 26px;
+    height: 103.92vw;
+    max-height: 792px;
+    padding: 27px 20px 30px
+  }
+  .main-cards-bottom-head {
+    width: 100%;
+    height: 4.373vw;
+    max-height: 30px;
   }
   .main-cards-bottom-wrap {
-    width: 100vw;
-    max-width: 341.5px;
-    height: 100vw;
-    max-height: 341.5px;
-  } */
+    background-color: aqua;
+  }
+
+  .main-cards-bottom-list {
+    
 }
+
+  .main-cards-bottom-list-inner-gray{
+  padding: 15px 10px 10px;
+}
+
+  .main-cards-bottom-list-inner-yellow{
+  padding: 15px 10px 10px;
+}
+}
+
+
+/* 반응형 작업시 웹사이트 크기에 맞춰 너비와 높이가 비율에 맞추어 줄어들게하려면 어떻게 해야하는지 */
+/* 마진 바텀을 20px로 지정했음에도 사이트 크기가 줄어들수록 카드가 서로 겹쳐지는 이유는? */
+/* ul li안에 있는 요소들이 박스 크기에 맞추도록 하는법? */

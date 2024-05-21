@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/wrap.css" />
+    <link rel="stylesheet" href="./css/header-open-menu.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main-news.css" />
@@ -65,19 +66,38 @@
           </div>
         </div>
       </header>
-      <div class="mbmenu">
-        <div class="mbmenu-inner">
-          <div class="mbmenu-login"></div>
-          <div class="mbmenu-myinfo"></div>
-          <div class="mbmenu-nav-box">
-            <div class="mbmenu-nav"></div>
-            <div class="mbmenu-nav"></div>
-            <div class="mbmenu-nav"></div>
-            <div class="mbmenu-nav"></div>
+
+      <!-- 헤더 상단 오픈 메뉴 -->
+      <div class="header-open-menu">
+        <div class="header-open-menu-inner">
+          <div class="header-open-menu-wrap">
+            <button class="header-open-menu-login-bt">
+              <div class="header-open-menu-login-img">
+                <img class="header-open-menu-login-img1" src="./images/avatar.png" alt="오픈메뉴 로그인이미지">
+              </div>
+              <span class="header-open-menu-login-span">
+                <strong class="header-open-menu-login-txt">로그인하세요</strong>
+              </span>
+            </button>
+            <ul class="header-open-menu-myinfo">
+              <li class="header-open-menu-myinfo-list">
+                <a href="#" class="header-open-menu-myinfo-link">
+                  <i class="header-open-menu-myinfo-img"></i>
+                  MY
+                </a>
+              </li>
+              <li class="header-open-menu-alert-list">
+                <a href="#" class="header-open-menu-myinfo-link">
+                  <i class="header-open-menu-alert-img"></i>
+                  알림
+                </a>
+              </li>
+            </ul>
+            <nav class="header-open-menu-nav"></nav>
           </div>
-          <div class="mbmenu-siteinfo"></div>
         </div>
       </div>
+      
       <main class="main">
         <div class="main-news">
           <div class="main-news-top">
