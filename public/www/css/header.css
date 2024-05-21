@@ -93,9 +93,8 @@
     margin-left: 10px;
   }
 }
-@media all and (max-width: 778px) {
+@media all and (max-width: 767px) {
   .header {
-    max-width: 767px;
     width: 100%;
     height: 92px;
   }
@@ -105,7 +104,6 @@
     height: 100%;
   }
   .header-logo {
-    height: 55px;
     display: flex;
     justify-content: center;
   }
@@ -115,9 +113,9 @@
   }
   .header-menu-list {
     width: 100%;
-    height: 37px;
-    justify-content: space-between;
+    height: auto;
     padding: 0px 20px;
+    justify-content: space-between;
   }
   .header-menu-list .dot {
     margin-left: -2px;

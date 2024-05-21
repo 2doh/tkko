@@ -201,15 +201,18 @@
 .imminent-popup-text {
   display: none;
 }
+.hearticon {
+  position: relative;
+}
 .imminent-popup-tail {
   position: absolute;
   top: 20px;
-  left: 17px;
+  left: 20px;
   width: 0px;
   height: 0px;
-  border-bottom: 10px solid #202020;
-  border-right: 7.81px solid transparent;
-  border-left: 7.81px solid transparent;
+  border-bottom: 6px solid #202020;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
   opacity: 0;
   transition: 0.5s;
 }
@@ -373,13 +376,13 @@
 }
 .time-limited-popup-tail {
   position: absolute;
-  top: 20px;
-  left: 17px;
+  top: 21px;
+  left: 20px;
   width: 0px;
   height: 0px;
-  border-bottom: 10px solid #202020;
-  border-right: 7.81px solid transparent;
-  border-left: 7.81px solid transparent;
+  border-bottom: 6px solid #202020;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
   opacity: 0;
   transition: 0.5s;
 }
