@@ -1,114 +1,205 @@
-.header-open-menu{
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    z-index: 999999999;
-    background: rgba(0, 0, 0, 0.3);
+.header-open-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  z-index: 999999999;
+  background: rgba(0, 0, 0, 0.3);
 }
 
-.header-open-menu-inner{
-    position: fixed;
-    top: 0;
-    right: 0;
-    max-width: 300px;
-    min-width: 280px;
-    height: 100%;
-    padding: 30px;
-    display: flex;
-    z-index: 999999999;
-    background-color: white;
+.header-open-menu-inner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-width: 300px;
+  min-width: 280px;
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  z-index: 999999999;
+  background-color: white;
 }
 
-.header-open-menu-wrap{
-    background-color: beige;
-    width: 240px;
-    height: 409.594px; 
+.header-open-menu-wrap {
+  width: 240px;
+  height: 409.594px;
 }
 
-.header-open-menu-login-bt{
-    display: inline-flex;
-    justify-content: flex-start;
-    align-items: center;
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0px 0px 20px;
-    border: none;
-    background-color: inherit; 
-    /* 부모 요소로부터 배경색 상속 */
+.header-open-menu-login-bt {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0px 0px 20px;
+  border: none;
+  background-color: inherit;
+  /* 부모 요소로부터 배경색 상속 */
 }
 
-.header-open-menu-login-img{
-    flex: 0 0 auto;
-    width: 40px;
-    height: 40px;
-    mask-image: url("../images/squircle.svg");
-    mask-size: 100% 100%;
+.header-open-menu-login-img {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  mask-image: url("../images/squircle.svg");
+  mask-size: 100% 100%;
 }
 
-.header-open-menu-login-img1{
-    width: 100%;
-    height: 100%;
-} 
-
-.header-open-menu-login-span{
-    display: block;
-    text-align: left;
-    padding-left: 12px;
+.header-open-menu-login-img1 {
+  width: 100%;
+  height: 100%;
 }
 
-.header-open-menu-login-txt{
-    font-size: 16px;
-    /* color: #202020; */
-    line-height: 1.56;
+.header-open-menu-login-span {
+  display: block;
+  text-align: left;
+  padding-left: 12px;
 }
 
-.header-open-menu-myinfo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 240px;
-    height: 45.34px;
-    border: 1px solid rgba(0, 0, 0, 0.03);
-    border-radius: 6px;
-    background-color: rgb(249, 249, 249)
+.header-open-menu-login-txt {
+  font-size: 16px;
+  /* color: #202020; */
+  line-height: 1.56;
 }
 
-.header-open-menu-myinfo-list{
-    width: 118.08px;
-    display: list-item;
-    position: relative;
-    font-size: 13px;
-    line-height: 1.54;
+.header-open-menu-myinfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 240px;
+  height: 45.34px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  border-radius: 6px;
+  background-color: rgb(249, 249, 249);
 }
 
-.header-open-menu-alert-list{
-    width: 120.59px;
-    display: list-item;
-    position: relative;
-    font-size: 13px;
-    line-height: 1.54;
+.header-open-menu-alert-list::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  width: 1px;
+  height: 14px;
+  margin-top: -7px;
+  font-size: 13px;
+  background-color: rgb(229, 229, 229);
 }
 
-.header-open-menu-myinfo-link{
-    width: 118.08px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 12px;
+.header-open-menu-myinfo-list {
+  width: 118.08px;
+  display: list-item;
+  position: relative;
+  font-size: 13px;
+  line-height: 1.54;
 }
 
-.header-open-menu-myinfo-img{
-    display: inline-flex;
-    width: 14px;
-    height: 14px;
-    background: url("../images/ico_side_my.svg") 50% 50% / contain no-repeat;
+.header-open-menu-alert-list {
+  width: 120.59px;
+  display: list-item;
+  position: relative;
+  font-size: 13px;
+  line-height: 1.54;
 }
 
-.header-open-menu-alert-img{
-    background: url("../images/ico_side_notice.svg") 50% 50% / contain no-repeat;
+.header-open-menu-myinfo-link {
+  width: 118.08px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  gap: 4px;
+}
+
+.header-open-menu-myinfo-img {
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  background: url("../images/ico_side_my.svg") 50% 50% / contain no-repeat;
+}
+
+.header-open-menu-alert-img {
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  background: url("../images/ico_side_notice.svg") 50% 50% / contain no-repeat;
+}
+
+.header-open-menu-nav {
+  width: 240px;
+  height: 304.25px;
+  padding-top: 28px;
+  display: block;
+  /* background-color: skyblue; */
+}
+
+.header-open-menu-nav-top-wrap {
+  width: 240px;
+  height: 192.41px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.header-open-menu-nav-top-list {
+  display: list-item;
+  position: relative;
+  width: 100%;
+  font-size: 13px;
+  position: relative;
+  /* background-color: pink; */
+}
+
+.header-open-menu-nav-top-link {
+  height: 42.05px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+  color: #202020;
+  padding: 6px 0px;
+}
+
+.header-open-menu-nav-top-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 13px;
+}
+
+.header-open-menu-nav-bottom-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.header-open-menu-nav-bottom-list {
+  width: calc(50% - 36px);
+  /* 부모 요소 너비의 50%에서 36픽셀을 뺀 값 */
+  display: list-item;
+  position: relative;
+  font-size: 13px;
+  width: (50% - 36px);
+  margin: 0 18px;
+  /* background-color: blueviolet; */
+}
+
+.header-open-menu-nav-bottom-link {
+  height: 31.97px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #666666;
+  padding: 5px 0px;
+}
+
+@media all and (max-width: 767px) {
+  .header-open-menu {
+    display: none;
+  }
 }
