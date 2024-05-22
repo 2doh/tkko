@@ -1,20 +1,19 @@
 .footer {
   width: 100%;
-  height: 180px;
-  display: flex;
-  justify-content: center;
+  display: block;
   position: relative;
   box-sizing: border-box;
-  padding: 40px 0 45px;
+  padding: 27px 20px 29px;
   border-top: 1px solid rgb(238, 238, 238);
+  background-color: rgb(247, 247, 247);
 }
 .footer .inner {
   width: 1120px;
-  height: 94.33px;
+  height: 100%;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  margin: 0 10px;
+  margin: 0 auto;
 }
 
 .footer-logo {
@@ -25,25 +24,34 @@
   background: url("../images/logo_mo.svg") center center / contain no-repeat;
 }
 
+.footer-logo-txt {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0px, 0px, 0px, 0px);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+}
+
 .footer-info {
   padding: 16px 0 18px;
   font-size: 14px;
-  color: #444444;
+  color: #666666;
+  line-height: 1.57;
 }
 
 .footer-bottom {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  /* flex-direction: row; */
   align-items: center;
-  padding-top: 10px;
   gap: 16px;
+  padding-top: 10px;
 }
 
 .footer-bottom-sitemap-list {
   display: flex;
-  width: 434.09px;
-  height: 33.97px;
   align-items: center;
   justify-content: center;
 }
@@ -82,8 +90,6 @@
 }
 
 .footer-bottom-sns-list {
-  width: 110px;
-  height: 33.98px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -112,25 +118,20 @@
 
 @media all and (max-width: 768px) {
   .footer {
-    height: 251.3px;
-    padding: 27px 20px 29px;
   }
   .footer .inner {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
     margin: 0 auto;
   }
   .footer-logo {
     margin: 0 auto;
-    display: block;
     width: 100px;
     height: 16px;
   }
   .footer-info {
-    padding: 10px 0 16px;
     margin: 0 auto;
+    padding: 10px 0 16px;
   }
   .footer-bottom {
     display: flex;
