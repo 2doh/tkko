@@ -162,6 +162,7 @@
   line-height: 1.92;
   overflow-wrap: break-word;
   word-break: break-all;
+  overflow: hidden;
 }
 
 /* 반응형 */
