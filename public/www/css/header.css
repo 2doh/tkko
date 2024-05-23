@@ -26,7 +26,6 @@
 .header-menu-list {
   display: flex;
   width: 600.42px;
-  height: 70px;
   align-items: center;
   gap: 20px;
 }
@@ -36,7 +35,6 @@
   height: 100%;
   align-items: center;
   color: #444444;
-  /* border-bottom: solid 2px black; */
 }
 .header-menu-list h2 {
   color: #444444;
@@ -52,8 +50,6 @@
   height: 4px;
   margin-left: 3px;
   margin-bottom: 17px;
-}
-.header-navi {
 }
 .navi-list {
   display: flex;
@@ -96,12 +92,11 @@
 @media all and (max-width: 767px) {
   .header {
     width: 100%;
-    height: 92px;
   }
   .header .inner {
     display: block;
     margin: 0 auto;
-    height: 100%;
+    /* height: 100%; */
   }
   .header-logo {
     display: flex;
@@ -115,6 +110,8 @@
     width: 100%;
     padding: 0px 20px;
     justify-content: space-between;
+    min-width: 476px;
+    border-bottom: solid 2px #444444;
   }
   .header-menu-list .dot {
     margin-left: -2px;

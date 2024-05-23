@@ -10,7 +10,9 @@
   margin-bottom: 30px;
   background-size: contain;
 }
-
+.banner-hidden {
+  display: none;
+}
 .main-news-top-imminent {
   width: 100%;
   height: auto;
@@ -427,6 +429,12 @@
     width: 100%;
   }
   .main-news-top-banner {
+    display: none;
+  }
+  .banner-hidden {
+    display: block;
+    margin-bottom: 30px;
+    background-size: contain;
     width: 100%;
     max-width: 727px;
     height: 94.78vw;
