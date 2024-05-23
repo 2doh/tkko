@@ -1,7 +1,20 @@
-import React from "react";
+window.addEventListener ("load", function (){
+  const dataUrl = "./apis/cardslide.json"
 
-const cardslide = () => {
-  return <div></div>;
-};
+  fetch(dataUrl)
+  .then((response)=>{
+    const data = response.json()
+    return data;
+  })
+  .then((result)=>{
+    let slideTags = "";
 
-export default cardslide;
+    for (let i = 0; i < result.length; i++) {
+      
+    }
+    
+  })
+  .catch((error)=>{
+    console.log(error)
+  })
+})

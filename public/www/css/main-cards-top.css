@@ -119,7 +119,6 @@
   width: 308px;
   height: 16px;
   display: block;
-  /* background-color: aqua; */
 }
 
 .main-cards-top-white-head-h4 {
@@ -129,33 +128,31 @@
 }
 
 .main-cards-top-white-body {
+  width: 308px;
+  height: 190.5px;
   box-sizing: border-box;
 }
 
-.main-cards-top-slider-container {
+.swiper-wrapper{
+ /* background-color: pink; */
 }
-
-.main-cards-top-white-body-contents {
-}
-
+  
 .main-cards-top-white-body-contents-link {
-  width: 308px;
-  height: 189.45px;
+  padding-top: 16px;
+  /* background-color: skyblue; */
+  /* justify-content: flex-end; */
+
 }
 
-.main-cards-top-white-body-contents-wrap {
-  padding-top: 18px;
-}
-
-.main-cards-top-white-body-contents-head {
+.swiper-slide-main-cards-head {
   width: 308px;
   height: 72px;
   color: #444444;
   font-size: 18px;
-  padding-top: 15px;
+  padding-top: 16px;
 }
 
-.main-cards-top-white-body-contents-txt {
+.swiper-slide-main-cards-contents {
   color: #4a4a4a;
   font-size: 14px;
   padding: 11px 0px 0px;

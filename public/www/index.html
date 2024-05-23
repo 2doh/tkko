@@ -27,6 +27,9 @@
     <script src="./js/timer.js"></script>
     <script src="./js/mostfund.js"></script>
     <script src="./js/cardslide.js"></script>
+    <!-- Swiper 적용 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -495,24 +498,22 @@
                   <h4 class="main-cards-top-white-head-h4">따뜻한 후기</h4>
                 </a>
               </div>
-              <div class="main-cards-top-white-body">
-                <div class="main-cards-top-slider-container">
-                  <div class="main-cards-top-white-body-contents">
-                    <a href="#" class="main-cards-top-white-body-contents-link">
-                      <div class="main-cards-top-white-body-contents-wrap">
-                        <strong class="main-cards-top-white-body-contents-head">
+              <!-- 메인 카드영역 슬라이드 -->
+              <div class="swiper-main-cards-top-white-body">
+                <div class="swiper-wrapper">
+                          <a href="#" class="main-cards-top-white-body-contents-link">
+                          <strong class="swiper-slide-main-cards-head">
                           장애아동의 떨리는 3월, 잘 적응할 수 있었어요!
-                        </strong>
-                        <p class="main-cards-top-white-body-contents-txt">
+                          </strong>
+                          <p class="swiper-slide-main-cards-contents">
                           학교를 가기 전까지 새로운 곳에서, 새로운 친구들, 선생님과 잘 지낼 수 있을지 걱정이 많았어요. 낯선 상황은 누구에게나 힘들겠지만, 저에게는 더욱 더 힘든 일이에요. 그런데 학교 놀이터에 참여하면서 낯선 장소에서 새로운 친구들을 만나, 수업 시간과 쉬는 시간을 구분하여
-                        </p>
-                      </div>
-                    </a>
-                  </div>
+                          </p>
+                        </a>
                 </div>
               </div>
             </div>
           </div> 
+
           <div class="main-cards-second">
             <a href="#" class="main-cards-second-wrap">
               <div class="main-cards-second-txt">
@@ -670,7 +671,7 @@
               </li>
               <li class="footer-bottom-sitemap">
                 <a href="#" class="footer-bottom-sitemap-link">
-                  <span style="font-weight: 600;" class="footer-bottom-sitemap-txt">개인정보처리방침</span>
+                  <span style="font-family:KakaoBig Bold" class="footer-bottom-sitemap-txt">개인정보처리방침</span>
                 </a>
               </li>
             </ul>
