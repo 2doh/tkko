@@ -28,7 +28,7 @@ window.addEventListener("load", function () {
     } else {
       headerLogo.style.display = "flex";
       headerNavi.style.display = "block";
-      hdCss.style.height = "90px";
+      hdCss.style.height = "auto";
       menu.style.height = "auto";
     }
   };
