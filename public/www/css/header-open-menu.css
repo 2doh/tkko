@@ -1,3 +1,7 @@
+.opem-menu {
+  display: none;
+}
+
 .header-open-menu {
   position: fixed;
   top: 0;
@@ -181,7 +185,7 @@
   display: list-item;
   position: relative;
   font-size: 13px;
-  width: (50% - 36px);
+  width: calc(50% - 36px);
   margin: 0 18px;
 }
 
