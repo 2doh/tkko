@@ -25,8 +25,10 @@
     <script src="./js/clockrote.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/timer.js"></script>
-    <script src="./js/mostfund.js"></script>
     <script src="./js/cardslide.js"></script>
+    <script src="./js/newslist.js"></script>
+    <script src="./js/mostfund.js"></script>
+    <script src="./js/dayleft.js"></script>
     <!-- Swiper 적용 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -190,7 +192,7 @@
                     </div>
                     <div class="imminent-contents-textbox-right">
                       <h2 class="imminent-contents-textbox-top">1,929,368원 목표</h2>
-                      <span class="imminent-contents-textbox-bottom-right">42일 남음</span>
+                      <span class="imminent-contents-textbox-bottom-right"></span>
                     </div>
                   </div></a>
                   <div class="imminent-buttons">
@@ -206,7 +208,7 @@
               <h2 class="mostfund-title">가장 많이 기부 중인 모금함</h2>
               <span class="mostfund-subtitle">오늘, 기부 하셨나요? 당신의 마음도 함께 나눠주세요!</span>
               <div class="mostfund-inner">
-                <div class="mostfund-box">
+                <!-- <div class="mostfund-box">
                   <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
                   <div class="mostfund-textbox">
                       <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
@@ -221,39 +223,7 @@
                       </div>
                     </div>
                   </div>                  
-                </div>
-                <div class="mostfund-box">
-                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
-                  <div class="mostfund-textbox">
-                      <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
-                      <span class="mostfund-sub">EBS나눔0700위원회</span>
-                    <div class="mostfund-bottom">
-                      <div class="gaugebar">
-                        <div class="gauge"></div>
-                      </div>
-                      <div class="mostfund-text">
-                        <h2 style="color:#202020; font-weight: 600;">11,171,479원</h2>
-                        <h2 style="color:#ff4050; font-weight: 600">22%</h2>
-                      </div>
-                    </div>
-                  </div>                  
-                </div>
-                <div class="mostfund-box">
-                  <img class="mostfund-img" src="./images/c1400x960 (4).jpg">
-                  <div class="mostfund-textbox">
-                      <span class="mostfund-content">그래도 우리는 행복한 가족입니다</span>
-                      <span class="mostfund-sub">EBS나눔0700위원회</span>
-                    <div class="mostfund-bottom">
-                      <div class="gaugebar">
-                        <div class="gauge"></div>
-                      </div>
-                      <div class="mostfund-text">
-                        <h2 style="color:#202020; font-weight: 600;">11,171,479원</h2>
-                        <h2 style="color:#ff4050; font-weight: 600">22%</h2>
-                      </div>
-                    </div>
-                  </div>                  
-                </div>
+                </div> -->
               </div>
             </div>
             <div class="main-news-top-timelimited br-20 shadow">
@@ -374,93 +344,25 @@
                 </div>
               </swiper-slide>
             </swiper-container>
-            <div class="main-news-bottom-news br-20 shadow">
-              <img src="./images/c1400x788 (1).jpg">
-              <div class="main-news-bottom-slide-textbox">
-                <div class="main-news-bottom-slide-textbox-inner">
-                  <span class="bottom-news-hashtag">#교육지원</span>
-                  <h2 class="bottom-news-title">철수의 꿈을 함께 찾아주세요.</h2>
-                  <span class="bottom-news-subtitle">
-                    관심이 필요한 철수 철수(가명)는 고령 장애인이신 아버지, 어머니와 함께 살고 있는 고령 장애 가정입니다. 아버지와 나이 차이가 많이 나는 철수는 지금가지도 아버지와의 관계가 많이 어색하여 박을 같이 먹은적...
-                  </span>
-                  <a href="#"><div class="gaugebar"><div class="gauge"></div></div></a>
-                  <div class="main-news-bottom-news-gaugetext">
-                    <h2 class="main-news-bottom-news-gaugetext-left">1,826,699원</h2>
-                    <h2 class="main-news-bottom-news-gaugetext-right">51%</h2>
+            <div class="main-news-bottom-wrap">
+              <div class="main-news-bottom-news br-20 shadow">
+                <img src="./images/c1400x788 (1).jpg">
+                <div class="main-news-bottom-slide-textbox">
+                  <div class="main-news-bottom-slide-textbox-inner">
+                    <span class="bottom-news-hashtag">#교육지원</span>
+                    <h2 class="bottom-news-title">철수의 꿈을 함께 찾아주세요.</h2>
+                    <span class="bottom-news-subtitle">
+                      관심이 필요한 철수 철수(가명)는 고령 장애인이신 아버지, 어머니와 함께 살고 있는 고령 장애 가정입니다. 아버지와 나이 차이가 많이 나는 철수는 지금가지도 아버지와의 관계가 많이 어색하여 박을 같이 먹은적...
+                    </span>
+                    <a href="#"><div class="gaugebar"><div class="gauge"></div></div></a>
+                    <div class="main-news-bottom-news-gaugetext">
+                      <h2 class="main-news-bottom-news-gaugetext-left">1,826,699원</h2>
+                      <h2 class="main-news-bottom-news-gaugetext-right">51%</h2>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>           
-            <div class="main-news-bottom-news br-20 shadow">
-              <img src="./images/c1400x788 (1).jpg">
-              <div class="main-news-bottom-slide-textbox">
-                <div class="main-news-bottom-slide-textbox-inner">
-                  <span class="bottom-news-hashtag">#교육지원</span>
-                  <h2 class="bottom-news-title">철수의 꿈을 함께 찾아주세요.</h2>
-                  <span class="bottom-news-subtitle">
-                    관심이 필요한 철수 철수(가명)는 고령 장애인이신 아버지, 어머니와 함께 살고 있는 고령 장애 가정입니다. 아버지와 나이 차이가 많이 나는 철수는 지금가지도 아버지와의 관계가 많이 어색하여 박을 같이 먹은적...
-                  </span>
-                  <a href="#"><div class="gaugebar"><div class="gauge"></div></div></a>
-                  <div class="main-news-bottom-news-gaugetext">
-                    <h2 class="main-news-bottom-news-gaugetext-left">1,826,699원</h2>
-                    <h2 class="main-news-bottom-news-gaugetext-right">51%</h2>
-                  </div>
-                </div>
-              </div>
-            </div>           
-            <div class="main-news-bottom-news br-20 shadow">
-              <img src="./images/c1400x788 (1).jpg">
-              <div class="main-news-bottom-slide-textbox">
-                <div class="main-news-bottom-slide-textbox-inner">
-                  <span class="bottom-news-hashtag">#교육지원</span>
-                  <h2 class="bottom-news-title">철수의 꿈을 함께 찾아주세요.</h2>
-                  <span class="bottom-news-subtitle">
-                    관심이 필요한 철수 철수(가명)는 고령 장애인이신 아버지, 어머니와 함께 살고 있는 고령 장애 가정입니다. 아버지와 나이 차이가 많이 나는 철수는 지금가지도 아버지와의 관계가 많이 어색하여 박을 같이 먹은적...
-                  </span>
-                  <a href="#"><div class="gaugebar"><div class="gauge"></div></div></a>
-                  <div class="main-news-bottom-news-gaugetext">
-                    <h2 class="main-news-bottom-news-gaugetext-left">1,826,699원</h2>
-                    <h2 class="main-news-bottom-news-gaugetext-right">51%</h2>
-                  </div>
-                </div>
-              </div>
-            </div>           
-            <div class="main-news-bottom-news br-20 shadow">
-              <img src="./images/c1400x788 (1).jpg">
-              <div class="main-news-bottom-slide-textbox">
-                <div class="main-news-bottom-slide-textbox-inner">
-                  <span class="bottom-news-hashtag">#교육지원</span>
-                  <h2 class="bottom-news-title">철수의 꿈을 함께 찾아주세요.</h2>
-                  <span class="bottom-news-subtitle">
-                    관심이 필요한 철수 철수(가명)는 고령 장애인이신 아버지, 어머니와 함께 살고 있는 고령 장애 가정입니다. 아버지와 나이 차이가 많이 나는 철수는 지금가지도 아버지와의 관계가 많이 어색하여 박을 같이 먹은적...
-                  </span>
-                  <a href="#"><div class="gaugebar"><div class="gauge"></div></div></a>
-                  <div class="main-news-bottom-news-gaugetext">
-                    <h2 class="main-news-bottom-news-gaugetext-left">1,826,699원</h2>
-                    <h2 class="main-news-bottom-news-gaugetext-right">51%</h2>
-                  </div>
-                </div>
-              </div>
-            </div>           
-            <div class="main-news-bottom-news br-20 shadow">
-              <img src="./images/c1400x788 (1).jpg">
-              <div class="main-news-bottom-slide-textbox">
-                <div class="main-news-bottom-slide-textbox-inner">
-                  <span class="bottom-news-hashtag">#교육지원</span>
-                  <h2 class="bottom-news-title">철수의 꿈을 함께 찾아주세요.</h2>
-                  <span class="bottom-news-subtitle">
-                    관심이 필요한 철수 철수(가명)는 고령 장애인이신 아버지, 어머니와 함께 살고 있는 고령 장애 가정입니다. 아버지와 나이 차이가 많이 나는 철수는 지금가지도 아버지와의 관계가 많이 어색하여 박을 같이 먹은적...
-                  </span>
-                  <a href="#"><div class="gaugebar"><div class="gauge"></div></div></a>
-                  <div class="main-news-bottom-news-gaugetext">
-                    <h2 class="main-news-bottom-news-gaugetext-left">1,826,699원</h2>
-                    <h2 class="main-news-bottom-news-gaugetext-right">51%</h2>
-                  </div>
-                </div>
-              </div>
-            </div>           
-            
-                      
+            </div>
           </div>
         </div>
         <div class="main-cards">

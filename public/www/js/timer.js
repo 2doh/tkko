@@ -42,5 +42,5 @@ window.addEventListener("load", function () {
     }
     showRemain.textContent = `${hourtxt}:${mintxt}:${sectxt}`;
   };
-  decreaseTime("9::");
+  decreaseTime("10:10:");
 });

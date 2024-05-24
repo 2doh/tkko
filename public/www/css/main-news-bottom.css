@@ -76,6 +76,9 @@
   right: 30px;
   bottom: 30px;
 }
+.main-news-bottom-wrap {
+  display: block;
+}
 .main-news-news {
   width: 700px;
   height: 250px;
