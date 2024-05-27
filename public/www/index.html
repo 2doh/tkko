@@ -30,6 +30,7 @@
     <script src="./js/newslist.js"></script>
     <script src="./js/mostfund.js"></script>
     <script src="./js/dayleft.js"></script>
+    <script src="./js/gauge.js"></script>
     <!-- Swiper 적용 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -192,11 +193,11 @@
                   </div></a>
                   <a href="#"><div class="imminent-contents-textbox">
                     <div class="imminent-contents-textbox-left">
-                      <h2 class="imminent-contents-textbox-top">1,784,200원</h2>
-                      <span class="imminent-contents-textbox-bottom-left">93% 달성</span>
+                      <h2 class="imminent-contents-textbox-top" id="imminentfund"></h2>
+                      <span class="imminent-contents-textbox-bottom-left" id="imminentachieve"></span>
                     </div>
                     <div class="imminent-contents-textbox-right">
-                      <h2 class="imminent-contents-textbox-top">1,929,368원 목표</h2>
+                      <h2 class="imminent-contents-textbox-top" id="imminentgoal"></h2>
                       <span class="imminent-contents-textbox-bottom-right"></span>
                     </div>
                   </div></a>
@@ -275,10 +276,10 @@
             <div class="main-news-top-mostfund br-20 shadow">
               <h2 class="mostfund-title">태그로 보는 모금함</h2>
               <div class="tags-title">
-                <a href="#"><div class="tags">#건강한식생활</div></a>
-                <a href="#"><div class="tags">#더나은사회</div></a>
-                <a href="#"></a><div class="tags">#식사지원</div></a>
-                <a href="#"></a><div class="tags">#행복한노후</div></a>
+                <div class="tags">#건강한식생활</div>
+                <div class="tags">#더나은사회</div>
+               <div class="tags">#식사지원</div>
+               <div class="tags">#행복한노후</div>
               </div>
               <div class="mostfund-inner">
                 <div class="mostfund-box">
