@@ -1,5 +1,8 @@
-window.addEventListener("", function () {
-  const hdOpenBt = document.querySelector("navi-menu a");
-  const openMu = document.querySelector("open-menu");
-  const hdOpenMn = document.querySelector("header-open-menu");
+window.addEventListener("load", function() {
+  const headeropenBt = document.querySelector(".navi-menu a")
+
+  headeropenBt.addEventListener("click", function(){
+    console.log("클릭확인")
+  });
 });
+  
