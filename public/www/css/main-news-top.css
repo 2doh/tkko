@@ -419,7 +419,7 @@
   font-size: 14px;
   border-radius: 20px;
 }
-.tags:hover {
+.tagsonclick {
   background-color: black;
   color: white;
 }
