@@ -9,14 +9,11 @@
   background: rgba(0, 0, 0, 0.3);
 }
 
-.header-open-bg-show{
+.header-open-bg-show {
   display: block;
 }
 
-.header-open-menu{
-  display: none;
-}
-/* .header-open-menu {
+.header-open-menu {
   position: fixed;
   top: 0;
   right: 0;
@@ -24,10 +21,15 @@
   min-width: 280px;
   height: 100%;
   padding: 30px;
-  display: flex;
+  display: none;
   z-index: 999999999;
   background-color: white;
-} */
+  transition: transform 300ms ease 0s;
+}
+
+.header-open-menu-show {
+  display: block;
+}
 
 .header-open-menu-inner {
   width: 240px;
@@ -203,6 +205,10 @@
 }
 
 @media all and (max-width: 767px) {
+  .header-open-bg {
+    display: none;
+  }
+
   .header-open-menu {
     display: none;
   }
