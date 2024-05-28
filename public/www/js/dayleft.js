@@ -20,5 +20,5 @@ window.addEventListener("load", function () {
     const showTimeLeft = yearLeft * 365 + monthLeft * 30 + dayLeft - 30;
     return showTimeLeft;
   };
-  calcTime("2024.05.30");
+  calcTime("2024.5.30");
 });
