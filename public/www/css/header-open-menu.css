@@ -9,10 +9,6 @@
   background: rgba(0, 0, 0, 0.3);
 }
 
-.header-open-bg-show {
-  display: block;
-}
-
 .header-open-menu {
   position: fixed;
   top: 0;
@@ -24,11 +20,12 @@
   display: none;
   z-index: 999999999;
   background-color: white;
-  transition: transform 300ms ease 0s;
+  transform: translateX(100%); /* 초기 상태에서 화면 밖으로 이동 */
+  transition: transform 0.3s ease;
 }
 
 .header-open-menu-show {
-  display: block;
+  transform: translateX(0); /* 화면 안으로 이동 */
 }
 
 .header-open-menu-inner {
@@ -48,6 +45,7 @@
   border: none;
   background-color: inherit;
   /* 부모 요소로부터 배경색 상속 */
+  cursor: pointer;
 }
 
 .header-open-menu-login-img {
@@ -56,6 +54,7 @@
   height: 40px;
   mask-image: url("../images/squircle.svg");
   mask-size: 100% 100%;
+  /* 마스크 이미지 크기 조정 */
 }
 
 .header-open-menu-login-img1 {
