@@ -3,6 +3,11 @@
   height: auto;
   line-height: 1.5;
 }
+.newsslide {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
 .main-news-bottom-slide {
   width: 100%;
   height: auto;
@@ -19,6 +24,7 @@
 .main-news-bottom-slide-textbox {
   display: flex;
   align-items: center;
+  width: 100%;
   padding: 0 30px;
   color: white;
   position: relative;

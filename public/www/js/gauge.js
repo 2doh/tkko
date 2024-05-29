@@ -19,8 +19,6 @@ window.addEventListener("load", function () {
     const goalAchieve = (showFund, goalFund) => {
       const achieveGoal = (showFund / goalFund) * 100;
       const showAchieve = Math.round(achieveGoal);
-      console.log(showAchieve);
-      console.log(achieveGoal);
       imminentAchieve.innerHTML = `${showAchieve}% 달성`;
       return showAchieve;
     };
@@ -30,7 +28,7 @@ window.addEventListener("load", function () {
     };
 
     const showFundValue = showFund(1000000);
-    const goalFundValue = goalFund(8000000);
+    const goalFundValue = goalFund(2000000);
     const achieve = goalAchieve(showFundValue, goalFundValue);
     gauge(achieve);
   };
