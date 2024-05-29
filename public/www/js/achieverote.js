@@ -5,7 +5,6 @@ window.addEventListener("load", function () {
       setTimeout(() => {
         item.style.transform = `rotate3d(1, 0, 0, 360deg)`;
         item.style.transition = `all 0.5s`;
-        console.log(rotate);
       }, index * 200);
     });
   };
