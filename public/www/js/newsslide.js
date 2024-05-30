@@ -27,6 +27,10 @@ window.addEventListener("load", function () {
       const whereTag = document.querySelector(".newsslide .swiper-wrapper");
       whereTag.innerHTML = allTag;
       const topSlide = new Swiper(".newsslide", {
+        autoplay: {
+          delay: 2500,
+        },
+        speed: 800,
         loop: true,
       });
       topSlide();
