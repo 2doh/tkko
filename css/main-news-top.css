@@ -415,6 +415,10 @@
   font-size: 14px;
   border-radius: 20px;
 }
+.tags:hover {
+  background-color: black;
+  color: white;
+}
 @media all and (max-width: 767px) {
   .main-news-top {
     width: 100%;

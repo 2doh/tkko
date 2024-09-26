@@ -1,5 +1,7 @@
 window.addEventListener("load", function () {
-  const showTime = document.querySelector(".imminent-contents-textbox-bottom-right");
+  const showTime = document.querySelector(
+    ".imminent-contents-textbox-bottom-right"
+  );
   const dayThis = new Date();
   const toDay = dayThis.getDate();
   const toMonth = dayThis.getMonth();
@@ -20,5 +22,5 @@ window.addEventListener("load", function () {
     const showTimeLeft = yearLeft * 365 + monthLeft * 30 + dayLeft - 30;
     return showTimeLeft;
   };
-  calcTime("2024.5.30");
+  calcTime("2026.5.30");
 });

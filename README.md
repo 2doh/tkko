@@ -4,4 +4,5 @@
 - 전체 리소스(이미지 등은) 원저작자에게 있습니다.
 - 문제 발생시 즉시 삭제하겠습니다.
 - 원사이트 : https://together.kakao.com/
-- 반응형 / html / css / js
+- 반응형 / swiper / html / css / js
+- 배포사이트 :
